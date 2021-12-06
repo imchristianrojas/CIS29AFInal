@@ -59,6 +59,7 @@ h1 {
   transition: all 0.3s ease 0s;
 }
 
+/* When User Hovers The link changes background color */
 .nav_links li a:hover {
   color: #0088a9;
 }
@@ -86,12 +87,13 @@ button :hover {
 .saturnVimg {
   width: 75%;
   position: relative;
-  animation: example;
+  animation: blast;
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
 
-@keyframes example {
+/* Rocket Blasts up When Home Page is loaded */
+@keyframes blast {
   0% {
     left: 0px;
     top: 200px;
@@ -102,6 +104,7 @@ button :hover {
   }
 }
 
+/* Homepage Layout */
 .grid2x2 {
   margin-top: 25px;
   min-height: 100%;
@@ -137,6 +140,7 @@ button :hover {
 }
 
 
+/* Table Styling for Missions Data */
 table {
   table-layout: fixed;
 }
